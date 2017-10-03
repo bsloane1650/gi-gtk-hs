@@ -26,6 +26,7 @@ library
                        Data.GI.Gtk.ModelView.ForestStore
                        Data.GI.Gtk.ModelView.TreeModel
                        Data.GI.Gtk.ComboBox
+                       Data.GI.Gtk.VideoPlayer
 
   build-depends:       base >=4.7 && <4.11,
                        base-compat >=0.9.0 && <0.10,
@@ -38,6 +39,12 @@ library
                        gi-gobject >=2.0.6 && <2.1,
                        gi-gdk >=3.0.6 && <3.1,
                        gi-gtk >=3.0.6 && <3.1,
+                       gi-gst,
+                       gi-gstvideo,
+                       gi-gdkx11,
+                       hashmap,
+                       directory,
+                       hashable,
                        gi-gdkpixbuf >=2.0.6 && <2.1
 
   hs-source-dirs:      src

@@ -7,6 +7,8 @@ module Data.GI.Gtk
     , module Data.GI.Gtk.ModelView.ForestStore
     , module Data.GI.Gtk.ModelView.TreeModel
     , module Data.GI.Gtk.ComboBox
+    , module Data.GI.Gtk.Threading
+    , module Data.GI.Gtk.VideoPlayer
     ) where
 
 import GI.Gtk hiding (treeModelGetValue, treeModelGetIter)
@@ -18,3 +20,5 @@ import Data.GI.Gtk.ModelView.SeqStore
 import Data.GI.Gtk.ModelView.ForestStore
 import Data.GI.Gtk.ModelView.TreeModel
 import Data.GI.Gtk.ComboBox
+import Data.GI.Gtk.Threading
+import Data.GI.Gtk.VideoPlayer
